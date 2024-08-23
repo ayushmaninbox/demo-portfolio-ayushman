@@ -1,26 +1,25 @@
 @media screen and (max-width: 1400px) {
     #profile {
-        height: 83vh;
-        margin-bottom: 6rem;
+        height: 80vh;
+        margin-bottom: 4rem;
     }
     .about-containers {
         flex-wrap: wrap;
     }
     #contact, #projects {
-        height: fit-content;
+        height: auto;
     }
 }
 
-
 @media screen and (max-width: 1200px) {
-    #desktop-nav{
+    #desktop-nav {
         display: none;
     }
     #hamburger-nav {
         display: flex;
     }
     #experience, .experience-details-container {
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
     #profile, .section-container {
         display: block;
@@ -29,15 +28,15 @@
         display: none;
     }
     section, .section-container {
-        height: fit-content;
+        height: auto;
     }
     section {
-        margin: 0 5%;
+        margin: 0 3%;
     }
     .section__pic-container {
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
+        width: 250px;
+        height: 250px;
+        margin: 0 auto 1.5rem;
     }
     .about-containers {
         margin-top: 0;
@@ -46,18 +45,20 @@
 
 @media screen and (max-width: 600px) {
     #contact, footer {
-        height: 40vh;
+        height: auto;
     }
     #profile {
-        height: 83vh;
+        height: 75vh;
         margin-bottom: 0;
     }
     article {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        padding: 0 1rem;
     }
     footer nav {
-        height: fit-content;
-        margin-bottom: 2rem;
+        height: auto;
+        margin-bottom: 1.5rem;
     }
     .about-containers, .contact-info-upper-container, .button-container {
         flex-wrap: wrap;
@@ -66,13 +67,15 @@
         margin: 0;
     }
     .contact-info-container p, .nav-links li a {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        line-height: 1.4;
     }
     .experience-sub-title {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
+        line-height: 1.4;
     }
     .logo {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     .nav-links {
         flex-direction: column;
@@ -81,16 +84,20 @@
     }
     .section__pic-container {
         width: auto;
-        height: 46vh;
+        height: 40vh;
         justify-content: center;
     }
     .section__text__p2 {
-        font-size: 1.25rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        padding: 0 1rem;
     }
     .title {
-        font-size: 2rem;
+        font-size: 1.75rem;
+        line-height: 1.4;
     }
     .text-container {
-       text-align: justify; 
+        text-align: justify;
+        padding: 0 1rem;
     }
 }
